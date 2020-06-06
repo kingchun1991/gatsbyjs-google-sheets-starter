@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import styled from '@emotion/styled';
 import Headroom from 'react-headroom';
 import logo from '../../static/logo/header-logo.png';
-import ThemeChanger from "../components/themeChanger"
+import ThemeChanger from "../components/ThemeChanger"
 
 const StyledLink = styled(Link)`
   display: flex;
