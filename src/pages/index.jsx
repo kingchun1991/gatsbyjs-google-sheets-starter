@@ -48,7 +48,7 @@ export default Index;
 export const pageQuery = graphql`
   query {
     allGoogleSpreadsheetSheet1(
-     sort: { fields: [date], order: ASC }
+     sort: { fields: [date], order: DESC }
   ) {
       edges {
         node {
