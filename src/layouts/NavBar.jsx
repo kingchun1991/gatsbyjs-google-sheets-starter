@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import styled from '@emotion/styled';
 import Headroom from 'react-headroom';
 import logo from '../../static/logo/header-logo.png';
+import ThemeChanger from "../components/themeChanger"
 
 const StyledLink = styled(Link)`
   display: flex;
@@ -33,10 +34,13 @@ const NavBar = () => (
       <img src={logo} alt="Gatsby Logo" />
     </StyledLink> */}
     {/* <Nav>
-      <Link to="/">Home</Link>
-      <Link to="/blog">Blog</Link>
-      <Link to="/about">About</Link>
+      //<Link to="/">Home</Link>
+      //<Link to="/blog">Blog</Link>
+      //<Link to="/about">About</Link>
     </Nav> */}
+    { <Nav>
+      <ThemeChanger/>
+    </Nav> }
   </Headroom>
 );
 

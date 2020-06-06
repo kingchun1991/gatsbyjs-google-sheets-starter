@@ -53,7 +53,26 @@ const Layout = ({ children }) => (
           h1 {
             font-family: ${theme.fontFamily.heading};
           }
-
+          body {
+            --bg: ${theme.colors.white.base};
+            --textNormal: #222;
+            --textTitle: #222;
+            --textLink: blue;
+            --hr: hsla(0, 0%, 0%, 0.2);
+          
+            background-color: var(--bg);
+          }
+          
+          body.dark {
+            -webkit-font-smoothing: antialiased;
+          
+            --bg: ${theme.colors.black.base};
+            --textNormal: rgba(255, 255, 255, 0.88);
+            --textTitle: ${theme.colors.white.base};
+            --textLink: yellow;
+            --hr: hsla(0, 0%, 100%, 0.2);
+          }
+          
           ${headroom}
         `}
       />

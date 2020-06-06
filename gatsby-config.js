@@ -82,6 +82,7 @@ module.exports = {
         icon: config.favicon,
       },
     },
+    'gatsby-plugin-dark-mode'
     // 'gatsby-plugin-offline',
   ],
 };
