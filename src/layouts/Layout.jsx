@@ -59,6 +59,7 @@ const Layout = ({ children }) => (
             --textTitle: #222;
             --textLink: blue;
             --hr: hsla(0, 0%, 0%, 0.2);
+            --a: ${theme.colors.black.base};
           
             background-color: var(--bg);
           }
@@ -71,6 +72,7 @@ const Layout = ({ children }) => (
             --textTitle: ${theme.colors.white.base};
             --textLink: yellow;
             --hr: hsla(0, 0%, 100%, 0.2);
+            --a: ${theme.colors.white.base};
           }
           
           ${headroom}
