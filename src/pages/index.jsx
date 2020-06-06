@@ -34,7 +34,7 @@ const Index = ({ data }) => {
             cover={node.productImage.childImageSharp.fluid}
             path={node.website}
             title={node.name}
-            date={node.date}
+            //date={node.date}
             excerpt={node.topic}
           />
         ))}
