@@ -54,11 +54,8 @@ export const pageQuery = graphql`
         node {
           id
           name
-          bio
-          twitter
           website
           topic
-          # date(formatString: "LLLL")
           date
           productImage {
             childImageSharp {
